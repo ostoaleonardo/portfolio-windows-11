@@ -7,7 +7,7 @@ export function TaskBar({ startMenu, setStartMenu }) {
     }
 
     return (
-        <footer className='absolute bottom-0 w-full flex flex-row justify-between bg-[#202020]/40 backdrop-blur-xl border-t-2 border-white/10 p-1'>
+        <footer className='absolute bottom-0 w-full flex flex-row justify-between bg-[#202020]/60 backdrop-blur-2xl border-t-2 border-white/10 p-1'>
             <section className='grid grid-cols-1'>
                 <div className='flex justify-center items-center rounded-md hover:bg-white/10 transition-all p-2'>
                     <img className='h-6 w-6' src={widgets} />

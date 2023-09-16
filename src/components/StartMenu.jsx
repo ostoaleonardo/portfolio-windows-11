@@ -14,12 +14,11 @@ const StartMenuAppList = [
     { icon: epicgames, name: 'Epic Games Launcher', link: 'https://store.epicgames.com/es-ES/u/771b7b9686b54fb7a25da86b901ffb92' },
     { icon: settings, name: 'Settings' },
     { icon: recycle, name: 'Recycle Bin' },
-    { icon: recycle, name: 'Programs' }
 ]
 
 export function StartMenu() {
     return (
-        <div className='absolute bottom-3 left-0 right-0 w-[640px] h-[min(100%_-_24px,_720px)] bg-[#202020]/50 backdrop-blur-xl border-2 border-white/5 rounded-lg mx-auto z-50'>
+        <div className='absolute bottom-3 left-0 right-0 w-[640px] h-[min(100%_-_24px,_720px)] bg-[#202020]/60 backdrop-blur-2xl border-2 border-white/5 rounded-lg mx-auto z-50'>
             <div className='w-full  flex flex-col p-8'>
                 <header className='w-full h-full flex bg-black/20 items-center rounded-full border-2 border-white/5 px-4 py-1 gap-3'>
                     <img className='h-3.5 w-3.5 invert' src={search} />
