@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { DesktopIcon } from './DesktopIcon'
-import { recycle } from '../assets/images/icons/win'
-import { vscode, figma, github, linkedin, behance, spotify, discord } from '../assets/images/icons/programs'
+import { recycle, vscode, figma, github, linkedin, behance, spotify, discord } from '../constants/icons'
 
 const icons = [
     { icon: recycle, name: 'Recycle Bin' },

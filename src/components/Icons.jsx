@@ -1,7 +1,25 @@
-export function ArrowUp({ color }) {
+export function Power() {
+    return (
+        <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+            <path d='M8.204 4.82a.75.75 0 0 1 .634 1.36A7.51 7.51 0 0 0 4.5 12.991c0 4.148 3.358 7.51 7.499 7.51s7.499-3.362 7.499-7.51a7.51 7.51 0 0 0-4.323-6.804.75.75 0 1 1 .637-1.358 9.01 9.01 0 0 1 5.186 8.162c0 4.976-4.029 9.01-9 9.01C7.029 22 3 17.966 3 12.99a9.01 9.01 0 0 1 5.204-8.17ZM12 2.496a.75.75 0 0 1 .743.648l.007.102v7.5a.75.75 0 0 1-1.493.102l-.007-.102v-7.5a.75.75 0 0 1 .75-.75Z' fill='white'>
+            </path>
+        </svg>
+    )
+}
+
+export function ArrowUp() {
     return (
         <svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-up' role='img' viewBox='0 0 512 512' data-flip='false' data-invert='false' data-rounded='false'>
-            <path fill={color} d='M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z'>
+            <path fill='white' d='M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z'>
+            </path>
+        </svg>
+    )
+}
+
+export function ArrowRight() {
+    return (
+        <svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-right' role='img' viewBox='0 0 320 512' data-flip='false' data-invert='false' data-rounded='false'>
+            <path fill='white' d='M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z'>
             </path>
         </svg>
     )
